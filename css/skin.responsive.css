@@ -1,0 +1,645 @@
+@charset "utf-8";
+
+/* Responsive styles
+-------------------------------------------------------------- */
+
+@media (min-width: 960px ) and (max-width: 1440px) {
+	#slide-1-layer-6 {
+		top: 23px;
+	}
+}
+
+@media (min-width: 1136px) {
+    .body_style_boxed .page_wrap {
+        padding: 1.9375em;
+    }
+    .body_style_boxed .body_wrap {
+        padding-top: 2.1875em;
+        padding-bottom: 3em;
+    }
+	.vc_vertical_border {}
+	.with_border_left [class*="column"]:first-child::before {
+		content: '';
+        position: absolute;
+        right: 0;
+        top: 0.75em;
+        width: 2px;
+        height: 70%;
+        background-color: #e4e5e5;
+	}
+	.with_border_left [class*="column"]:nth-child(2) {
+		padding-left: 1.5em;
+	}
+	.vc_vertical_border .vc_col-sm-6 {padding-right: 40px;}
+	.vc_vertical_border .vc_col-sm-6 + .vc_col-sm-6 {padding-left: 40px; padding-right: 15px;}
+	.vc_vertical_border .vc_col-sm-6 + .vc_col-sm-6:before {display: none;}
+}
+@media (min-width: 1280px) and (max-width: 1439px) {
+	body:not(.sidebar_hide).sidebar_left .page_content_wrap.page_paddings_yes .content_wrap:before {
+		left: 300px;
+	}
+	body:not(.sidebar_hide).sidebar_right .page_content_wrap.page_paddings_yes .content_wrap:before {
+		right: 300px;
+	}
+}
+
+
+/*
+Apple iPhone 5, 5S & 5C 
+Apple iPod Touch (5th generation)
+*/
+/* With side menu
+@media (min-width: 1366px) and (max-width: 1679px) {
+*/
+/* Without side menu */
+@media (min-width: 1136px) and (max-width: 1279px) {
+	body {	font-size: 14px; }
+	body:not(.sidebar_hide).sidebar_left .page_content_wrap.page_paddings_yes .content_wrap:before {
+		left: 270px;
+	}
+	body:not(.sidebar_hide).sidebar_right .page_content_wrap.page_paddings_yes .content_wrap:before {
+		right: 270px;
+	}
+
+	.top_panel_wrap .logo {
+		margin-top: 40px;
+	}
+}
+
+
+/*
+Apple iPhone 4 & 4S
+Apple iPod Touch (4th generation)
+*/
+/* With side menu
+@media (min-width: 1280px) and (max-width: 1365px) {
+*/
+/* Without side menu */
+@media (min-width: 960px) and (max-width: 1135px) {
+	body {	font-size: 13px; }
+	body:not(.sidebar_hide).sidebar_left .page_content_wrap.page_paddings_yes .content_wrap:before {
+		left: 270px;
+	}
+	body:not(.sidebar_hide).sidebar_right .page_content_wrap.page_paddings_yes .content_wrap:before {
+		right: 270px;
+	}
+	h1 { font-size:3em; }		/* 39px */
+	h2 { font-size:2.3077em; }	/* 30px */
+	h3 { font-size:2.3077em; }	/* 30px */
+	h4 { font-size:1.3846em; }	/* 18px */
+	h5 { font-size:1.2308em; }	/* 16px */
+	h6 { font-size:1em; }		/* 13px */
+
+	/* Post layouts */
+	.isotope_filters a {
+		font-size:0.8461em;
+	}
+	
+	/* Post parts */
+	.post_info {
+		font-size:0.8461em;
+	}
+	.post_info {
+		font-size:0.8461em;
+	}
+	.post_rating .reviews_star {
+		font-size:1em;
+	}
+	.post_item_colored .post_category {
+		font-size:1em;
+		margin:0 0 0.4em;
+	}
+	.post_item_colored .post_descr .post_price_period {
+		font-size:1em;
+	}
+	.post_item_colored .post_descr .post_price_value {
+		font-size:1.3846em;
+	}
+	
+	/* Footer */
+	.contacts_wrap .contacts_address {
+		font-size: 1em;
+	}
+	
+	/* Widgets */
+	.widget_area .post_item .post_info {
+		font-size:0.7692em;
+	}
+	.widget_area .widget_tag_cloud a {
+		font-size:0.8461em !important;
+	}
+	.widget_area .widget_calendar .weekday {
+		font-size:0.8461em;
+	}
+	
+	/* Shortcodes */
+	.sc_testimonial_content {
+		font-size:1.25em;
+	}
+	.sc_testimonial_author {
+		font-size: 1em;
+	}
+
+	.top_panel_wrap .logo {
+		margin-top: 34px;
+	}
+}
+
+
+
+/*
+Sony Xperia
+LG Optimus
+Blackberry Storm 3, Torch 9850 & Torch 9860
+Nokia Lumia 610, 710 & 800
+HTC Desire, Desire Z, Desire S & One V
+Samsung Galaxy
+*/
+/* With side menu
+@media (min-width: 768px) and (max-width: 1279px) {
+*/
+/* Without side menu */
+@media (min-width: 768px) and (max-width: 959px) {
+	body {	font-size: 13px; }
+	body:not(.sidebar_hide).sidebar_left .page_content_wrap.page_paddings_yes .content_wrap:before {
+		display: none;
+	}
+	body:not(.sidebar_hide).sidebar_right .page_content_wrap.page_paddings_yes .content_wrap:before {
+		display: none;
+	}
+	h1 { font-size:3em; }		/* 39px */
+	h2 { font-size:2.3077em; }	/* 30px */
+	h3 { font-size:1.8462em; }	/* 22px */
+	h4 { font-size:1.3846em; }	/* 18px */
+	h5 { font-size:1.2308em; }	/* 16px */
+	h6 { font-size:1em; }		/* 13px */
+
+	/* Post layouts */
+	.isotope_filters a {
+		font-size:0.8461em;
+	}
+	
+	/* Post parts */
+	.post_info {
+		font-size:0.8461em;
+	}
+	.post_info {
+		font-size:0.8461em;
+	}
+	.post_rating .reviews_star {
+		font-size:1em;
+	}
+	.post_item_colored .post_category {
+		font-size:1em;
+		margin:0 0 0.4em;
+	}
+	.post_item_colored .post_descr .post_price_period {
+		font-size:1em;
+	}
+	.post_item_colored .post_descr .post_price_value {
+		font-size:1.3846em;
+	}
+	
+	/* Footer */
+	.contacts_wrap .contacts_address {
+		font-size: 1em;
+	}
+	
+	/* Widgets */
+	.widget_area .post_item .post_info {
+		font-size:0.7692em;
+	}
+	.widget_area .widget_tag_cloud a {
+		font-size:0.8461em !important;
+	}
+	.widget_area .widget_calendar .weekday {
+		font-size:0.8461em;
+	}
+	.widget_area .reviews_block .reviews_summary .reviews_criteria {
+		font-size:0.7692em;
+	}
+	
+	/* Shortcodes */
+	input[type="submit"], input[type="button"], button, .sc_button {
+		padding: 0.75em;
+	}
+	.sc_testimonial_content {
+		font-size:1.25em;
+	}
+	.sc_testimonial_author {
+		font-size: 1em;
+	}
+
+    /* woo cart */
+    .woocommerce table.cart td.actions .coupon .input-text,
+    .woocommerce #content table.cart td.actions .coupon .input-text,
+    .woocommerce-page table.cart td.actions .coupon .input-text,
+    .woocommerce-page #content table.cart td.actions .coupon .input-text {
+        width: 48%;
+    }
+    .woocommerce .cart-collaterals h2,
+    .woocommerce-page .cart-collaterals h2 {
+        text-align: center;
+    }
+    .woocommerce-cart .cart-collaterals .cart_totals table {
+        width: 100%;
+    }
+    .woocommerce .cart-collaterals .cart_totals table th,
+    .woocommerce-page .cart-collaterals .cart_totals table th {
+        width: 50%;
+        text-align: right;
+        font-weight: 600;
+    }
+
+    /* secondary classes */
+    .md_font_size_3-5em {font-size: 3.5em !important;}
+    .md_margin_top_1-5em {margin-top: 1.5em !important;}
+
+
+	.top_panel_wrap .logo {
+		margin-top: 28px;
+	}
+
+}
+
+
+
+/*
+Portrait orientation
+
+Sony Xperia
+LG Optimus
+Blackberry Storm 3, Torch 9850 & Torch 9860
+Nokia Lumia 610, 710 & 800
+HTC Desire, Desire Z, Desire S & One V
+Samsung Galaxy
+*/
+@media (min-width: 480px) and (max-width: 767px) {
+	body {	font-size: 12px; }
+	body:not(.sidebar_hide).sidebar_left .page_content_wrap.page_paddings_yes .content_wrap:before {
+		display: none;
+	}
+	body:not(.sidebar_hide).sidebar_right .page_content_wrap.page_paddings_yes .content_wrap:before {
+		display: none;
+	}
+	h1 { font-size:2.5em; }		/* 30px */
+	h2 { font-size:2em; }		/* 24px */
+	h3 { font-size:2em; }		/* 24px */
+	h4 { font-size:1.3333em; }	/* 16px */
+	h5 { font-size:1.1667em; }	/* 14px */
+	h6 { font-size:1em; }		/* 12px */
+	
+	/* Post layouts */
+	.isotope_filters a {
+		font-size:0.8333em;
+	}
+	
+	/* Post parts */
+	.post_info {
+		font-size:0.8333em;
+	}
+	.post_info {
+		font-size:0.8333em;
+	}
+	.post_rating .reviews_star {
+		font-size:1em;
+	}
+	.post_item_colored .post_category {
+		font-size:1em;
+		margin:0 0 0.4em;
+	}
+	.post_item_colored .post_descr .post_price_period {
+		font-size:1em;
+	}
+	.post_item_colored .post_descr .post_price_value {
+		font-size:1.3333em;
+	}
+	
+	/* Footer */
+	.contacts_wrap .contacts_address {
+		font-size: 1em;
+	}
+	
+	/* Widgets */
+	.widget_area .post_item .post_info {
+		font-size:0.75em;
+	}
+	.widget_area .widget_tag_cloud a {
+		font-size:0.8333em !important;
+	}
+	.widget_area .widget_calendar .weekday {
+		font-size:0.8333em;
+	}
+	.widget_area .reviews_block .reviews_summary .reviews_criteria {
+		font-size:0.75em;
+	}
+	
+	/* Shortcodes */
+	input[type="submit"], input[type="button"], button, .sc_button {
+		padding: 0.7em 0.6em;
+	}
+	.sc_testimonial_content {
+		font-size:1.25em;
+	}
+	.sc_testimonial_author {
+		font-size: 1em;
+	}
+	.sc_tabs .sc_tabs_titles li {
+		font-size:1.25em;
+	}
+	.sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a {
+		border-width: 1px;
+	}
+
+    /* woo cart */
+    .woocommerce table.cart td.actions .coupon .input-text,
+    .woocommerce #content table.cart td.actions .coupon .input-text,
+    .woocommerce-page table.cart td.actions .coupon .input-text,
+    .woocommerce-page #content table.cart td.actions .coupon .input-text {
+        width: 48%;
+    }
+    .woocommerce .cart-collaterals h2,
+    .woocommerce-page .cart-collaterals h2 {
+        text-align: center;
+    }
+    .woocommerce-cart .cart-collaterals .cart_totals table {
+        width: 100%;
+    }
+    .woocommerce .cart-collaterals .cart_totals table th,
+    .woocommerce-page .cart-collaterals .cart_totals table th {
+        width: 50%;
+        text-align: right;
+        font-weight: 600;
+    }
+
+	.top_panel_wrap .logo {
+		margin-top: 28px;
+	}
+}
+
+
+
+
+/*
+Very common low res
+*/
+@media (max-width: 479px) {
+	body {	font-size: 12px; }
+	body:not(.sidebar_hide).sidebar_left .page_content_wrap.page_paddings_yes .content_wrap:before {
+		display: none;
+	}
+	body:not(.sidebar_hide).sidebar_right .page_content_wrap.page_paddings_yes .content_wrap:before {
+		display: none;
+	}
+	h1 { font-size:2.5em; }		/* 30px */
+	h2 { font-size:2em; }		/* 24px */
+	h3 { font-size:1.6667em; }	/* 20px */
+	h4 { font-size:1.3333em; }	/* 16px */
+	h5 { font-size:1.1667em; }	/* 14px */
+	h6 { font-size:1em; }		/* 12px */
+	
+	/* Post layouts */
+	.isotope_filters a {
+		font-size:0.8333em;
+	}
+	
+	/* Post parts */
+	.post_info {
+		font-size:0.8333em;
+	}
+	.post_info {
+		font-size:0.8333em;
+	}
+	.post_rating .reviews_star {
+		font-size:1em;
+	}
+	
+	.post_item_colored .post_category {
+		font-size:1em;
+		margin:0 0 0.4em;
+	}
+	.post_item_colored .post_descr .post_price_period {
+		font-size:1em;
+	}
+	.post_item_colored .post_descr .post_price_value {
+		font-size:1.3333em;
+	}
+	
+	
+	/* Footer */
+	.contacts_wrap .contacts_address {
+		font-size: 1em;
+	}
+	
+	/* Widgets */
+	.widget_area .post_item .post_info {
+		font-size:0.75em;
+	}
+	.widget_area .widget_tag_cloud a {
+		font-size:0.8333em !important;
+	}
+	.widget_area .widget_calendar .weekday {
+		font-size:0.8333em;
+	}
+	.widget_area .reviews_block .reviews_summary .reviews_criteria {
+		font-size:0.75em;
+	}
+	
+	/* Shortcodes */
+	input[type="submit"], input[type="button"], button, .sc_button {
+		padding: 0.7em 0.6em;
+	}
+	blockquote {
+		font-size: 1.5em;
+	}
+	.sc_countdown.sc_countdown_style_1 .sc_countdown_digits,
+	.sc_countdown.sc_countdown_style_1 .sc_countdown_separator {
+		font-size:2em;
+		height: 2em;
+		line-height:2em;
+	}
+	.sc_countdown.sc_countdown_style_1 .sc_countdown_digits {
+		width: 2em;
+	}
+	.sc_testimonial_content {
+		font-size:1.25em;
+	}
+	.sc_testimonial_author {
+		font-size: 1em;
+	}
+	.sc_tabs .sc_tabs_titles li {
+		font-size:1.25em;
+	}
+	.sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a {
+		border-width: 1px;
+	}
+
+    .wp-video .mejs-container .mejs-controls {
+        width: 95%;
+    }
+
+    /* woo cart */
+    .woocommerce table.cart td.actions .coupon .input-text,
+    .woocommerce #content table.cart td.actions .coupon .input-text,
+    .woocommerce-page table.cart td.actions .coupon .input-text,
+    .woocommerce-page #content table.cart td.actions .coupon .input-text {
+        width: 48%;
+    }
+    .woocommerce .cart-collaterals h2,
+    .woocommerce-page .cart-collaterals h2 {
+        text-align: center;
+    }
+    .woocommerce-cart .cart-collaterals .cart_totals table {
+        width: 100%;
+    }
+    .woocommerce .cart-collaterals .cart_totals table th,
+    .woocommerce-page .cart-collaterals .cart_totals table th {
+        width: 50%;
+        text-align: right;
+        font-weight: 600;
+
+    }
+
+    .nav_filter .esg-filterbutton {
+        display: block;
+    }
+
+    .sc_call_to_action.sc_call_to_action_align_left.sc_call_to_action_style_2 .sc_call_to_action_descr,
+    .sc_call_to_action.sc_call_to_action_align_right.sc_call_to_action_style_2 .sc_call_to_action_descr {
+        /**/
+    }
+    .sc_call_to_action.sc_call_to_action_align_left.sc_call_to_action_style_2 .sc_call_to_action_buttons.sc_item_buttons.column-1_4,
+    .sc_call_to_action.sc_call_to_action_align_right.sc_call_to_action_style_2 .sc_call_to_action_buttons.sc_item_buttons.column-1_4 {
+        padding-top: 0;
+        padding-bottom: 3.1667em;
+    }
+
+    .sc_tabs.sc_tabs_style_2 .sc_tabs_titles {
+        float: none;
+        max-width: 100%;
+    }
+    .sc_tabs.sc_tabs_style_2 .sc_tabs_content {
+        margin-left: 0;
+    }
+
+    .sc_table {
+        overflow-y: scroll;
+    }
+
+    .woocommerce .checkout #order_review .payment_methods li.payment_method_cheque label,
+    .woocommerce-page .checkout #order_review .payment_methods li.payment_method_cheque label {
+        position: relative;
+        top: -2px;
+    }
+    .woocommerce .checkout #order_review .payment_methods li.payment_method_paypal,
+    .woocommerce-page .checkout #order_review .payment_methods li.payment_method_paypal {
+        margin-top: 40px;
+    }
+    .woocommerce .checkout #order_review .payment_methods li.payment_method_paypal input#payment_method_paypal,
+    .woocommerce-page .checkout #order_review .payment_methods li.payment_method_paypal input#payment_method_paypal {
+        /*float: left;*/
+        /*display: block;*/
+    }
+    .woocommerce .checkout #order_review .payment_methods li.payment_method_paypal label,
+    .woocommerce-page .checkout #order_review .payment_methods li.payment_method_paypal label {
+        /*float: left;*/
+        /*display: block;*/
+        margin-left: 20px;
+        position: relative;
+        text-align: left;
+        top: -40px;
+    }
+    .woocommerce .checkout #order_review .payment_methods li.payment_method_paypal label .about_paypal,
+    .woocommerce-page .checkout #order_review .payment_methods li.payment_method_paypal label .about_paypal {
+        float: left;
+        line-height: 1;
+        margin-left: 43px;
+        margin-top: 3px;
+    }
+
+    .comments_list_wrap ul ul {
+        margin-left: 1em;
+    }
+    .reviews_block .reviews_summary .reviews_item,
+    .widget_area .reviews_block .reviews_summary .reviews_criteria {
+        height: auto;
+    }
+    .widget_area .reviews_block .reviews_summary .reviews_criteria {
+        padding-bottom: 0.85em;
+    }
+
+    .body_filled .footer_wrap.widget_area .widget_area_inner .content_wrap {width: auto !important;}
+    .body_filled .footer_wrap.widget_area .widget_area_inner .columns_wrap {margin: 0;}
+    .body_filled .footer_wrap.widget_area .widget_area_inner .columns_wrap > [class*="column-"] {padding-right: 0;}
+
+    /*.content {overflow: hidden;}*/
+    .content .page .post_content .vc_row.wpb_row.vc_row-fluid {margin: -10px; overflow: hidden;}
+
+    /* secondary classes */
+    .sm_two_buttons {}
+    .sm_two_buttons .sc_button + .sc_button {margin-left: 0 !important; margin-top: 10px;}
+
+}
+
+/* skin custom media */
+@media (max-width: 959px) {
+    .sidebar_right .page_content_wrap .content_wrap .sidebar:before {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .woocommerce-shipping-fields {
+        margin-top: 2.5em;
+    }
+    .sc_audio.sc_audio_image {
+        padding: 115px 25px 25px 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .post_item.post_item_portfolio_2 .post_descr .post_info + p a {
+        max-height: 3.5em;
+    }
+}
+
+/* revolution sliders */
+@media (max-width: 1024px)  {
+	.sc_call_to_action_align_left.sc_call_to_action_style_2 .sc_item_button  {
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 768px) {
+    .rev_slider .rev_slider_hide_sm {
+		display: none !important;
+        visibility: hidden !important;
+	}
+	.woocommerce div.product form.cart div.quantity, .woocommerce-page div.product form.cart div.quantity {
+		margin-top: 0;
+	}
+	.woocommerce .quantity input.qty,
+	.woocommerce-page .quantity input.qty {
+		padding: 0.5em 0.5em;
+	}
+}
+@media (max-width: 480px) {
+    .rev_slider .rev_slider_hide_xs {
+		display: none !important;
+        visibility: hidden !important;
+	}
+	.md_inline .sc_section {
+		margin: 0 !important;
+		width: 100% !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		padding-bottom: 45px;
+	}
+	.md_inline .sc_section .sc_section_content {
+		/*padding-left: 0 !important;*/
+	}
+	.woocommerce-checkout #payment ul.payment_methods li input {
+		margin-top: 0.15em;
+	}
+	.woocommerce-checkout #payment ul.payment_methods li.payment_method_paypal input {
+		margin-top: 0;
+	}
+}
